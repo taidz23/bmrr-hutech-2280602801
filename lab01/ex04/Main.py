@@ -1,4 +1,4 @@
-from ex04.QuanLySinhVien import QuanLySinhVien # type: ignore
+from QuanLySinhVien import QuanLySinhVien
 
 qlsv = QuanLySinhVien()
 while (1==1):
@@ -80,4 +80,4 @@ while (1==1):
 
     else:
         print("\nKhong co chuc nang nay!")
-        print("\nHay chon chuc nang trong hop menu.")
+        print("\nHay chon chuc nang trong hop menu.")        
