@@ -116,7 +116,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_en">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -129,7 +129,7 @@
      <string>Encrypt</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_de">
     <property name="geometry">
      <rect>
       <x>400</x>
