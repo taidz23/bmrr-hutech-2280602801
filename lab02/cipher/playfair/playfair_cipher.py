@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class PlayFairCipher:
     def __init__(self) -> None:
         pass
@@ -75,7 +74,7 @@ class PlayFairCipher:
         else:
             banro += decrypted_text[-2]
             banro += decrypted_text[-1]
-=======
+
 class PlayFairCipher:
     def __init__(self) -> None:
         pass
@@ -151,6 +150,5 @@ class PlayFairCipher:
             banro += decrypted_text[-2]
         else:
             banro += decrypted_text[-2]
-            banro += decrypted_text[-1]
->>>>>>> 31c7f4ddc75f823439ad7ca8ef6c553f792c5ec7
+            banro += decrypted_text[-1] 
         return banro

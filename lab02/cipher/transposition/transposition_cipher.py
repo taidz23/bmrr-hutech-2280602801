@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class TranspositionCipher:
     def __init__(self):
         pass
@@ -21,7 +20,7 @@ class TranspositionCipher:
             if col == key or (col == key - 1 and row >= len(text) % key):
                 col = 0
                 row += 1
-=======
+
 class TranspositionCipher:
     def __init__(self):
         pass
@@ -43,6 +42,5 @@ class TranspositionCipher:
             col += 1
             if col == key or (col == key - 1 and row >= len(text) % key):
                 col = 0
-                row += 1
->>>>>>> 31c7f4ddc75f823439ad7ca8ef6c553f792c5ec7
+                row += 1 
         return ''.join(decrypted_text)
